@@ -1,0 +1,30 @@
+package br.com.alvoradamaringa.domain;
+
+import java.util.Date;
+
+public class idNivelUsuario {
+    
+    private String Nome;
+    private Long idNivelUsuario;
+  
+    
+    public void setId(Long idNivelUsuario){
+        this.idNivelUsuario = idNivelUsuario;
+    }
+    
+    public Integer getIdNivelUsuario(){
+		return this.idNivelUsuario;
+	}
+	 public void setId(Sting Nome){
+        this.Nome = Nome;
+    }
+    
+    public Integer getNome(){
+		return this.Nome;
+	}
+	
+    
+    
+    
+   
+}
