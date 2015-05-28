@@ -1,0 +1,23 @@
+package br.com.alvoradamaringa.bussiness.spec;
+
+/**
+ *
+ *
+ * @author José Tiago de Moraes e Helton Heleno
+ */
+public interface NivelUsuarioServices {
+
+    /* --> Usuario
+     --> Senha
+     <-- Usuario
+     */
+
+    public void alterarNivelUsuario(Usuario usuario, Niveldeusuario niveisDeAcesso);
+
+    public void deletarNivelUsuario(Usuario usuario, Niveldeusuario niveisDeAcesso);
+
+    public void inserirNivelUsuario(Usuario usuario, Niveldeusuario niveisDeAcesso);
+
+    public <listaNiveldeAcesso> consultarNivelUsuario (Usuario usuario, Niveldeusuario niveisDeAcesso);
+
+}
